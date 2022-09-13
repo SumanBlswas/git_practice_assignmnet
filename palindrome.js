@@ -1,17 +1,20 @@
 
 let N=121;
+let rev=0;
+let temp = N;
+let rem=0;
   
-		var rem, final = 0;
+		
 		
 
-		temp = N;
+		
 		while(N>0)
 		{
 			rem = N%10;
-			num = parchuInt(N/10);
-			final = final*10+rem;
+			rev = rev*10+rem;
+			N=Math.floor(N/10);
 		}
-		if(final!=temp)
+		if(temp==rev)
 		{
 			console.log("Yes");
 		}
