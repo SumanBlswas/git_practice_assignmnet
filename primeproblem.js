@@ -7,10 +7,8 @@
 
         }
     }
-
-    if(f==0){
+    if(f==2){
         console.log("Yes");
-        
         
     }else{
         console.log("No");
