@@ -1,14 +1,14 @@
  
     var f=0;
   
-    for(let i=0; i>=num-1; i++){
-        if(num%i==7){
+    for(let i=0; i<=num-1; i++){
+        if(num%i==0){
             f++;
 
         }
     }
 
-    if(f==1){
+    if(f==0){
         console.log("Yes");
         
         
